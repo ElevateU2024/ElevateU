@@ -1,14 +1,17 @@
 // main.tsx or main.jsx
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import {NextUIProvider} from '@nextui-org/react'
-import App from './App'
-import './index.css'
+import React from "react";
+import ReactDOM from "react-dom/client";
+import { NextUIProvider } from "@nextui-org/react";
+import App from "./App";
+import "./index.css";
+import {RecoilRoot} from "recoil";
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <NextUIProvider>
-      <App />
-    </NextUIProvider>
-  </React.StrictMode>,
-)
+    <RecoilRoot>
+      <NextUIProvider>
+        <App />
+      </NextUIProvider>
+    </RecoilRoot>
+  </React.StrictMode>
+);
