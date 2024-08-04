@@ -24,7 +24,8 @@ export default {
         Roboto:['Roboto Mono,monospace'],
         Playwrite:["Playwrite NG Modern ,cursive"],
         Playwrite2:["Playwrite FR Modern ,cursive"],
-        Gupter :["Gupter , serif"]
+        Gupter :["Gupter , serif"],
+        Merriweather:["Merriweather, serif"]
       },
       rotate: {
         '135': '135deg',

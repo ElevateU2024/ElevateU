@@ -4,7 +4,7 @@ import NavBarLogo from "../../assets/ELEVATE-LogoLight2.png";
 function NavBar() {
 
   return (
-    <div className="h-full w-full flex text-white  justify-between items-center backdrop-blur-2xl">
+    <div className="h-full w-full flex text-white bg-black  justify-between items-center backdrop-blur-2xl sticky top-0">
       <div className="h-full w-fit flex justify-center items-center gap-2">
         <img
           className="h-full w-auto ml-5 "
