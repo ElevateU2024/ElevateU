@@ -25,6 +25,7 @@ function HomeIntro() {
                     className='h-52 lg:h-60 w-auto'
                     src={HomeLogo}
                     alt="Home Logo"
+                    loading=''
                 />
             </div>
 
