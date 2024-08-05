@@ -18,7 +18,7 @@ function HomeIntro() {
     };
 
     return (
-        <div className='bg-home bg-center bg-cover gap-2 h-[93vh] w-full flex flex-col justify-center items-center'>
+        <div className='bg-home2 bg-center bg-cover gap-2 h-[93vh] w-full flex flex-col justify-center items-center'>
             {/* Logo section */}
             <div className='h-[40vh] w-full flex justify-center items-end bg-red-90'>
                 <img

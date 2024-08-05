@@ -32,9 +32,8 @@ export default {
       },
       backgroundImage: {
         'home': "url('../public/HomeImg.png')",
-        'mobile': "url('../public/MobileHomeImg.png')",
-        'Lhome': "url('../public/HomeImgL.png')",
-        'Lmobile': "url('../public/MobileHomeImgL.png')",
+        'home2': "url('../src/assets/Home Images/HomeImg.png')",
+        
       },
     },
   },
